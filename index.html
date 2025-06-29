@@ -3,12 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <title>مش مهم</title>
 </head>
 
 <body>
     <h1 style="width: 100%;  text-align: center;" dir="rtl" id="headText"></h1>
-
+    <br>
+    <div style="text-align: center;">
+        <button class="mainBtn" onclick="window.location.reload()">أعادة تحميل</button>
+    </div>
+    <br>
     <!-- <img id="mainImg" alt=""> -->
     <div id="mainImg" style="width: 100%;  text-align: center;"></div>
 
@@ -49,7 +54,7 @@
             }
         } else if (userAge >= 18 && (name === "خلود" || name === "خوخة")) {
             alert("✅ مسموح بالدخول");
-                            img.innerHTML = "<img src='all.gif' alt='img'>"
+            img.innerHTML = "<img src='all.gif' alt='img'>"
             headText.innerText = "♥️ يارب تتجوزي وتنجحي برضه زي ما قلت لياسين"
         }
         else if (userAge >= 18) {
