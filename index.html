@@ -36,18 +36,20 @@
                 headText.innerText = "🤬انت مش شهد اطلع برة"
                 img.innerHTML = "<img src='cat.gif' alt='img'>"
             }
-        } else if (userAge >= 18 && (name === "يسو" || name === "ياسين")) {
+        } else if (userAge >= 18 && (name === "يسو" || name === "ياسين" || name === "ياسو")) {
             let psw = Number(prompt("ادخل تاريخ يوم مميز (يوم وشهر بدون فواصل)"));
             let userPsw = psw;
             if (userPsw === 1212) {
                 alert("✅ مسموح بالدخول");
                 headText.innerText = "♥️يارب تتجوز وتنجح برضه زي ما قلت لخلود "
+                img.innerHTML = "<img src='all.gif' alt='img'>"
             } else {
                 headText.innerText = "🤬انت مش يسو اطلع برة"
                 img.innerHTML = "<img src='cat.gif' alt='img'>"
             }
         } else if (userAge >= 18 && (name === "خلود" || name === "خوخة")) {
             alert("✅ مسموح بالدخول");
+                            img.innerHTML = "<img src='all.gif' alt='img'>"
             headText.innerText = "♥️ يارب تتجوزي وتنجحي برضه زي ما قلت لياسين"
         }
         else if (userAge >= 18) {
